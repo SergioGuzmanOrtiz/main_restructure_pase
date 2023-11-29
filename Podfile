@@ -4,6 +4,4 @@ use_frameworks!
 target 'RestructurePase' do
  use_frameworks!
 
-pod 'Alamofire', '~> 5.0'
-
 end

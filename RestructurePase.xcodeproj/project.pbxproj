@@ -16,6 +16,8 @@
 		A83E1F2E2B163CA500976AE7 /* RestructurePaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F2D2B163CA500976AE7 /* RestructurePaseTests.swift */; };
 		A83E1F382B163CA500976AE7 /* RestructurePaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F372B163CA500976AE7 /* RestructurePaseUITests.swift */; };
 		A83E1F3A2B163CA500976AE7 /* RestructurePaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F392B163CA500976AE7 /* RestructurePaseUITestsLaunchTests.swift */; };
+		A8C4E5EE2B16A8ED00C66502 /* CellTableDateHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */; };
+		A8C6F6BD2B16943500EE71FC /* CellTableDateHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */; };
 		E4E753B8EDB9CF8C50883420 /* Pods_RestructurePase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F650E388968B9EF75A6AD /* Pods_RestructurePase.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,8 @@
 		A83E1F332B163CA500976AE7 /* RestructurePaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestructurePaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83E1F372B163CA500976AE7 /* RestructurePaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestructurePaseUITests.swift; sourceTree = "<group>"; };
 		A83E1F392B163CA500976AE7 /* RestructurePaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestructurePaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableDateHome.swift; sourceTree = "<group>"; };
+		A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableDateHome.xib; sourceTree = "<group>"; };
 		BAD6B83B09C65E996EE46B07 /* Pods-RestructurePase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.release.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.release.xcconfig"; sourceTree = "<group>"; };
 		BC56E0A66F1BF37B78A314E5 /* Pods-RestructurePase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.debug.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +91,6 @@
 				BC56E0A66F1BF37B78A314E5 /* Pods-RestructurePase.debug.xcconfig */,
 				BAD6B83B09C65E996EE46B07 /* Pods-RestructurePase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,10 +119,10 @@
 		A83E1F152B163CA100976AE7 /* RestructurePase */ = {
 			isa = PBXGroup;
 			children = (
+				A8C6F6BB2B16939300EE71FC /* PrincipalHome */,
+				A8C6F6B82B16906200EE71FC /* Main */,
 				A83E1F162B163CA100976AE7 /* AppDelegate.swift */,
 				A83E1F182B163CA100976AE7 /* SceneDelegate.swift */,
-				A83E1F1A2B163CA100976AE7 /* ViewController.swift */,
-				A83E1F1C2B163CA100976AE7 /* Main.storyboard */,
 				A83E1F1F2B163CA400976AE7 /* Assets.xcassets */,
 				A83E1F212B163CA400976AE7 /* LaunchScreen.storyboard */,
 				A83E1F242B163CA400976AE7 /* Info.plist */,
@@ -144,6 +147,48 @@
 			path = RestructurePaseUITests;
 			sourceTree = "<group>";
 		};
+		A8C6F6B42B16902B00EE71FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8C6F6B52B16903400EE71FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A83E1F1A2B163CA100976AE7 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8C6F6B62B16903C00EE71FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8C6F6B82B16906200EE71FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A8C6F6B42B16902B00EE71FC /* Model */,
+				A8C6F6B52B16903400EE71FC /* View */,
+				A8C6F6B62B16903C00EE71FC /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A8C6F6BB2B16939300EE71FC /* PrincipalHome */ = {
+			isa = PBXGroup;
+			children = (
+				A83E1F1C2B163CA100976AE7 /* Main.storyboard */,
+				A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */,
+				A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */,
+			);
+			path = PrincipalHome;
+			sourceTree = "<group>";
+		};
 		BCF0E3C48259240D392B45A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +208,6 @@
 				A83E1F0F2B163CA100976AE7 /* Sources */,
 				A83E1F102B163CA100976AE7 /* Frameworks */,
 				A83E1F112B163CA100976AE7 /* Resources */,
-				DCA53E4D30655BAAB497285A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83E1F232B163CA400976AE7 /* LaunchScreen.storyboard in Resources */,
+				A8C6F6BD2B16943500EE71FC /* CellTableDateHome.xib in Resources */,
 				A83E1F202B163CA400976AE7 /* Assets.xcassets in Resources */,
 				A83E1F1E2B163CA100976AE7 /* Main.storyboard in Resources */,
 			);
@@ -303,23 +348,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCA53E4D30655BAAB497285A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RestructurePase/Pods-RestructurePase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RestructurePase/Pods-RestructurePase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestructurePase/Pods-RestructurePase-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -328,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A83E1F1B2B163CA100976AE7 /* ViewController.swift in Sources */,
+				A8C4E5EE2B16A8ED00C66502 /* CellTableDateHome.swift in Sources */,
 				A83E1F172B163CA100976AE7 /* AppDelegate.swift in Sources */,
 				A83E1F192B163CA100976AE7 /* SceneDelegate.swift in Sources */,
 			);
