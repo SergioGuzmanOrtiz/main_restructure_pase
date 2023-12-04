@@ -16,6 +16,7 @@
 		A83E1F2E2B163CA500976AE7 /* RestructurePaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F2D2B163CA500976AE7 /* RestructurePaseTests.swift */; };
 		A83E1F382B163CA500976AE7 /* RestructurePaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F372B163CA500976AE7 /* RestructurePaseUITests.swift */; };
 		A83E1F3A2B163CA500976AE7 /* RestructurePaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F392B163CA500976AE7 /* RestructurePaseUITestsLaunchTests.swift */; };
+		A884ADB62B1E438B00381078 /* LoginPaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A884ADB52B1E438B00381078 /* LoginPaseViewController.swift */; };
 		A8C4E5EE2B16A8ED00C66502 /* CellTableDateHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */; };
 		A8C6F6BD2B16943500EE71FC /* CellTableDateHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */; };
 		E4E753B8EDB9CF8C50883420 /* Pods_RestructurePase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F650E388968B9EF75A6AD /* Pods_RestructurePase.framework */; };
@@ -53,6 +54,7 @@
 		A83E1F332B163CA500976AE7 /* RestructurePaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestructurePaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83E1F372B163CA500976AE7 /* RestructurePaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestructurePaseUITests.swift; sourceTree = "<group>"; };
 		A83E1F392B163CA500976AE7 /* RestructurePaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestructurePaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A884ADB52B1E438B00381078 /* LoginPaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPaseViewController.swift; sourceTree = "<group>"; };
 		A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableDateHome.swift; sourceTree = "<group>"; };
 		A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableDateHome.xib; sourceTree = "<group>"; };
 		BAD6B83B09C65E996EE46B07 /* Pods-RestructurePase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.release.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				A83E1F1C2B163CA100976AE7 /* Main.storyboard */,
 				A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */,
 				A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */,
+				A884ADB52B1E438B00381078 /* LoginPaseViewController.swift */,
 			);
 			path = PrincipalHome;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			files = (
 				A83E1F1B2B163CA100976AE7 /* ViewController.swift in Sources */,
 				A8C4E5EE2B16A8ED00C66502 /* CellTableDateHome.swift in Sources */,
+				A884ADB62B1E438B00381078 /* LoginPaseViewController.swift in Sources */,
 				A83E1F172B163CA100976AE7 /* AppDelegate.swift in Sources */,
 				A83E1F192B163CA100976AE7 /* SceneDelegate.swift in Sources */,
 			);
