@@ -1,0 +1,6 @@
+framework module NetworkManagerSDK {
+  umbrella header "NetworkManagerSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

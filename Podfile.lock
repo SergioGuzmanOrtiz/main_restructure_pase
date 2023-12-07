@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 682ce6186a93c42a44b071a1acc3d709cf68bddc
+PODS:
+  - NetworkManagerSDK (0.0.1)
+
+DEPENDENCIES:
+  - NetworkManagerSDK (from `NetworkManagerSDK`)
+
+EXTERNAL SOURCES:
+  NetworkManagerSDK:
+    :path: NetworkManagerSDK
+
+SPEC CHECKSUMS:
+  NetworkManagerSDK: a325a9a3cd40b3bd9b5050b738bdd7943c15ae59
+
+PODFILE CHECKSUM: 0330549c5e5665b07948794fef57518e55dd8d72
 
 COCOAPODS: 1.14.3
