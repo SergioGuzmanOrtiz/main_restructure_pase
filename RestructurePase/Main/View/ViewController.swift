@@ -34,6 +34,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 for personaje in response!.results!{
                     print("id: \(personaje.id) \(personaje.name) (\(personaje.species))")
                 }
+                self.tablaDatos.reloadData()
             }
         }
     }
@@ -41,13 +42,37 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // MARK: -UITable View
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 7
+        return self.arrayCharacters.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tablaDatos.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! CellTableDateHome
+        let obj = self.arrayCharacters[indexPath.row]
+        celda.icon.load(link: obj.image)
+        celda.diaHora.text = obj.name
+        if obj.status.lowercased() == "alive"{
+            celda.tramo.text = "🟢 \(obj.status) - \(obj.species)"
+        }else{
+            celda.tramo.text = "🔴 \(obj.status) - \(obj.species)"
+        }
+        celda.ubicacion.text = "Location: \(obj.location.name!)"
+        celda.precio.text = obj.gender
         
         return celda
+    }
+}
+
+extension UIImageView{
+    func load(link: String) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: URL(string: link)!) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image
+                    }
+                }
+            }
+        }
     }
 }
 

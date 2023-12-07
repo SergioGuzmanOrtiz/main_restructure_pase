@@ -9,6 +9,7 @@ import UIKit
 
 class CellTableDateHome: UITableViewCell{
     
+    @IBOutlet weak var icon: UIImageView!
     @IBOutlet weak var diaHora: UILabel!
     @IBOutlet weak var precio: UILabel!
     @IBOutlet weak var tramo: UILabel!
