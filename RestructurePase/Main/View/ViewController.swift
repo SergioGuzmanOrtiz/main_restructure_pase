@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //MARK: - Llamadas a servicio
         ///Obtener todos los  personajes (Paginados) :::::::::::::
-        self.ws.getCharacters { response, error in
+        self.ws.getCharacters(numberPage: 2) { response, error in
             if let _ = error {
                 print("ERROR: \(error!.errorMessage) - (\(error!.error))")
             }else{
@@ -37,6 +37,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 self.tablaDatos.reloadData()
             }
         }
+        
+//        self.ws.getCharacters { response, error in
+//            if let _ = error {
+//                print("ERROR: \(error!.errorMessage) - (\(error!.error))")
+//            }else{
+//                print("Success WS")
+//                self.arrayCharacters = response!.results!
+//                for personaje in response!.results!{
+//                    print("id: \(personaje.id) \(personaje.name) (\(personaje.species))")
+//                }
+//                self.tablaDatos.reloadData()
+//            }
+//        }
     }
     
     // MARK: -UITable View

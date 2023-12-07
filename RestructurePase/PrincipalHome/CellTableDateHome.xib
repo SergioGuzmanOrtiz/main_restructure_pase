@@ -19,29 +19,27 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8vk-Iu-KFY">
                         <rect key="frame" x="0.0" y="0.0" width="455" height="116"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="l1x-JR-AHA">
-                                <rect key="frame" x="20.000000000000014" y="20" width="227.33333333333337" height="82"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="l1x-JR-AHA">
+                                <rect key="frame" x="20.000000000000014" y="20" width="236.33333333333337" height="82"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8T5-Se-g9G">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="82"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camino" translatesAutoresizingMaskIntoConstraints="NO" id="gwZ-Tp-RNu">
-                                                <rect key="frame" x="20" y="18.666666666666664" width="45" height="45"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="45" id="972-Z2-4ky"/>
-                                                    <constraint firstAttribute="width" constant="45" id="Hv6-dW-k3a"/>
-                                                </constraints>
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="82"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="85" id="I3B-zU-Gbv"/>
+                                            <constraint firstItem="gwZ-Tp-RNu" firstAttribute="height" secondItem="8T5-Se-g9G" secondAttribute="height" id="Nq5-1M-zY5"/>
                                             <constraint firstItem="gwZ-Tp-RNu" firstAttribute="centerY" secondItem="8T5-Se-g9G" secondAttribute="centerY" id="n3I-qz-Uai"/>
+                                            <constraint firstItem="gwZ-Tp-RNu" firstAttribute="width" secondItem="8T5-Se-g9G" secondAttribute="width" id="rfT-YR-XSQ"/>
                                             <constraint firstItem="gwZ-Tp-RNu" firstAttribute="centerX" secondItem="8T5-Se-g9G" secondAttribute="centerX" id="waR-gT-fIq"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6KZ-Ly-zxs">
-                                        <rect key="frame" x="86.000000000000014" y="0.0" width="141.33333333333337" height="82"/>
+                                        <rect key="frame" x="95.000000000000014" y="0.0" width="141.33333333333337" height="82"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sáb. 30 8:48 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLJ-rn-dWz">
                                                 <rect key="frame" x="0.0" y="0.0" width="128.33333333333334" height="20.666666666666668"/>
