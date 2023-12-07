@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06321E219119E1A7C289ED86005160A4 /* StructsObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCA5F7C5F46927CBF713B0A0A1A213 /* StructsObjects.swift */; };
-		7044C17207FDBBC7C455D21EE95F801C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44A709D4D422058BC8E86BC6A71075 /* WebService.swift */; };
+		285A1BB35CD12A5CFBA858243134F819 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6752D010072E9A1707D6DA1702979 /* WebService.swift */; };
+		3CC4C108E5D32DDC09902EB576A960BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D84CA0B9F0D6F0C2A4C467CF05B5FB2 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A7839DB62325C4B781EEC01E3F125E /* CharactersModel.swift */; };
+		600DF79167DA1901801C4994027716FF /* NetworkManagerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C029B36E85C655697CB080874A94062 /* NetworkManagerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654F0FA626457803C7AE5C918CA4CEF4 /* EnumsGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28212573CD7C7236CE4AD1ACF302691 /* EnumsGeneric.swift */; };
+		70D0E37F06051749869B872FC52A4115 /* NameServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CBC3D948C8313F6ADAA900687E880 /* NameServices.swift */; };
 		717C21870E83C4FB5ABD5E3848F92853 /* Pods-RestructurePase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E4AD90F7570058B728C36448F97A9 /* Pods-RestructurePase-dummy.m */; };
-		764A37AE0585C2BA1C4641FB4C9FC06B /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3316F4F418A29024F6FF48A63DFC47B /* CharactersModel.swift */; };
-		952003D043B24685A12D9CA5312AE713 /* NetworkManagerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA40E4B9F2D318986BADBD1E1FA6BD73 /* NetworkManagerSDK-dummy.m */; };
-		96259CA5D44F0FA1CA9D7F77BC9925A4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2943DAF1389AC880754559EB92500C /* Network.swift */; };
-		9AB4363F90576C9781A9DC471A2DA19E /* NetworkManagerSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77947ED40220E81B461062F26172D4F1 /* NetworkManagerSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B96E111EE4C1272988A76A341825236 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CE70B184CDAFBF3267EC2367D3D17 /* NetworkModel.swift */; };
 		A562728AB6C8B6ED86248156A56B584D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B680CE35F0C9EC73D1CAB6E67A59007C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BBE6999BDBE60B41295DEB87D904C719 /* NetworkManagerSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 984ED784D0F6EF0D8B7771C473786FC7 /* NetworkManagerSDK-dummy.m */; };
 		BF4520E9FF9D3DD2FAB23936FFD65070 /* Pods-RestructurePase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C01C27C580C1121A7738F03364F20E96 /* Pods-RestructurePase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F66C435B1995F9D82FDE393FC5E6E1AC /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5522AE698C212FC0C39F1F082DECAB /* NetworkModel.swift */; };
+		CFB7D07E383D19AABA811CC3DE7E4488 /* StructsObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97353066325300D6066CAA45760ABA54 /* StructsObjects.swift */; };
+		D0D654BF027709D81D46E65B62B1B4A6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A970B46F037345F5215BA86846264 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E7DFB132F71E492C1EDFA767BDADC248 /* PBXContainerItemProxy */ = {
+		5CB883F9B099E449D48B785DDEE8DC76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,39 +35,41 @@
 /* Begin PBXFileReference section */
 		152B0A7087A8865E89656AD5338B5B86 /* Pods-RestructurePase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RestructurePase"; path = Pods_RestructurePase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1530916D9A8C8528779B9791BDFE8653 /* Pods-RestructurePase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestructurePase.debug.xcconfig"; sourceTree = "<group>"; };
-		1ADCA5F7C5F46927CBF713B0A0A1A213 /* StructsObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StructsObjects.swift; sourceTree = "<group>"; };
-		23B08F192DF7F96BA7F3275A937F1A28 /* NetworkManagerSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkManagerSDK.release.xcconfig; sourceTree = "<group>"; };
-		2D9267CF3C65E9DBB5853F99B7FDE64C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1751E0A0122311B931DC5448A3FAC6FF /* NetworkManagerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkManagerSDK-prefix.pch"; sourceTree = "<group>"; };
+		24A9C76A1511DD23158916767523E3E0 /* NetworkManagerSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NetworkManagerSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B033303526CEAAEF4A2E3F0F41905BC /* NetworkManagerSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkManagerSDK.release.xcconfig; sourceTree = "<group>"; };
+		3B8C674B90F50E9675F2AFE34883DEF7 /* NetworkManagerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NetworkManagerSDK-Info.plist"; sourceTree = "<group>"; };
+		6A14B71ECED5467E6C30A4B11220D2C5 /* NetworkManagerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkManagerSDK.debug.xcconfig; sourceTree = "<group>"; };
+		6C029B36E85C655697CB080874A94062 /* NetworkManagerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkManagerSDK-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75E6E2914F1E1B27B1A5E3884C577427 /* NetworkManagerSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NetworkManagerSDK-Info.plist"; sourceTree = "<group>"; };
-		77947ED40220E81B461062F26172D4F1 /* NetworkManagerSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkManagerSDK-umbrella.h"; sourceTree = "<group>"; };
+		76DAA5E25D9BA063852F0FA0686C30D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8421D83A242E7FB1EFABDFC08A93595B /* NetworkManagerSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NetworkManagerSDK; path = NetworkManagerSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AA4BCF07E15AEBB1A2F3A8636AE22AC /* NetworkManagerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NetworkManagerSDK.modulemap; sourceTree = "<group>"; };
-		8B44A709D4D422058BC8E86BC6A71075 /* WebService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		849B675F0C3D8DC401E9E95649BA7B21 /* NetworkManagerSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NetworkManagerSDK.modulemap; sourceTree = "<group>"; };
 		8B69C862D53829E5CA40AB9AEAC6639D /* Pods-RestructurePase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestructurePase-frameworks.sh"; sourceTree = "<group>"; };
-		8B90F98399B72FDE17A1577E08CF6AA3 /* NetworkManagerSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkManagerSDK-prefix.pch"; sourceTree = "<group>"; };
-		9B8FEFFD54F8E7D82AFC7313F6C15341 /* NetworkManagerSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkManagerSDK.debug.xcconfig; sourceTree = "<group>"; };
+		97353066325300D6066CAA45760ABA54 /* StructsObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StructsObjects.swift; sourceTree = "<group>"; };
+		984ED784D0F6EF0D8B7771C473786FC7 /* NetworkManagerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NetworkManagerSDK-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0A79AD1A63861DD13B8C331E9668AE2 /* Pods-RestructurePase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RestructurePase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA2A970B46F037345F5215BA86846264 /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		B255374A427B46A34F4CF7CC77537D1E /* Pods-RestructurePase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RestructurePase.modulemap"; sourceTree = "<group>"; };
-		BA9E96CFF797D94814A04F123825E594 /* NetworkManagerSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NetworkManagerSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BD5522AE698C212FC0C39F1F082DECAB /* NetworkModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		C01C27C580C1121A7738F03364F20E96 /* Pods-RestructurePase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestructurePase-umbrella.h"; sourceTree = "<group>"; };
+		D44CBC3D948C8313F6ADAA900687E880 /* NameServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NameServices.swift; sourceTree = "<group>"; };
 		D7105827539DB58F162FCF41F0192F70 /* Pods-RestructurePase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestructurePase.release.xcconfig"; sourceTree = "<group>"; };
-		E3316F4F418A29024F6FF48A63DFC47B /* CharactersModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
-		EA40E4B9F2D318986BADBD1E1FA6BD73 /* NetworkManagerSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NetworkManagerSDK-dummy.m"; sourceTree = "<group>"; };
+		E28212573CD7C7236CE4AD1ACF302691 /* EnumsGeneric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EnumsGeneric.swift; sourceTree = "<group>"; };
+		E2A7839DB62325C4B781EEC01E3F125E /* CharactersModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
+		E64CE70B184CDAFBF3267EC2367D3D17 /* NetworkModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		EFB4412CC26C81C71941AB72D7FBB5CC /* Pods-RestructurePase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestructurePase-acknowledgements.plist"; sourceTree = "<group>"; };
 		F95E4AD90F7570058B728C36448F97A9 /* Pods-RestructurePase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RestructurePase-dummy.m"; sourceTree = "<group>"; };
-		FA2943DAF1389AC880754559EB92500C /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F9D6752D010072E9A1707D6DA1702979 /* WebService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		FA3C762FB5A2707A7A06E3B60470583C /* Pods-RestructurePase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestructurePase-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B2D071BBF90EFE1614F641E283F28782 /* Frameworks */ = {
+		53B5917411B4BD471ABE9ECC95D6FB4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B680CE35F0C9EC73D1CAB6E67A59007C /* Foundation.framework in Frameworks */,
+				3CC4C108E5D32DDC09902EB576A960BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,27 +84,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26B9871638075BC81F46FAB891938E18 /* NetworkManagerSDK */ = {
+		068149EC152F2003DACABF76CB63A362 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				B816D64993AA10DAA33CF5FB8AEC46D1 /* Models */,
-				8B9DC00111678EC5E329269C58AA6C43 /* Pod */,
-				4B2E274FCF240D05B8DAA9C2B6302B50 /* Services */,
-				92E57955EA422E8492C52A6A55DD8FA3 /* StructsObjects */,
-				F6CF4ACD7753664030BBE93938BA4785 /* Support Files */,
-			);
-			name = NetworkManagerSDK;
-			path = ../NetworkManagerSDK;
-			sourceTree = "<group>";
-		};
-		4B2E274FCF240D05B8DAA9C2B6302B50 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				FA2943DAF1389AC880754559EB92500C /* Network.swift */,
-				8B44A709D4D422058BC8E86BC6A71075 /* WebService.swift */,
+				AA2A970B46F037345F5215BA86846264 /* Network.swift */,
+				F9D6752D010072E9A1707D6DA1702979 /* WebService.swift */,
 			);
 			name = Services;
 			path = NetworkManagerSDK/NetworkManagerSDK/Services;
+			sourceTree = "<group>";
+		};
+		22433EE391ACBB985912C670370AC8C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				24A9C76A1511DD23158916767523E3E0 /* NetworkManagerSDK.podspec */,
+				76DAA5E25D9BA063852F0FA0686C30D0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3DC2A5096EA812FCBC75C3901F5278BC /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				D44CBC3D948C8313F6ADAA900687E880 /* NameServices.swift */,
+			);
+			name = Strings;
+			path = NetworkManagerSDK/NetworkManagerSDK/Strings;
+			sourceTree = "<group>";
+		};
+		4973ED381F5058A14DA37911EF7D8F4D /* StructsObjects */ = {
+			isa = PBXGroup;
+			children = (
+				97353066325300D6066CAA45760ABA54 /* StructsObjects.swift */,
+			);
+			name = StructsObjects;
+			path = NetworkManagerSDK/NetworkManagerSDK/StructsObjects;
+			sourceTree = "<group>";
+		};
+		533EA9C878BD0AF3E36C1002CA2C9807 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				849B675F0C3D8DC401E9E95649BA7B21 /* NetworkManagerSDK.modulemap */,
+				984ED784D0F6EF0D8B7771C473786FC7 /* NetworkManagerSDK-dummy.m */,
+				3B8C674B90F50E9675F2AFE34883DEF7 /* NetworkManagerSDK-Info.plist */,
+				1751E0A0122311B931DC5448A3FAC6FF /* NetworkManagerSDK-prefix.pch */,
+				6C029B36E85C655697CB080874A94062 /* NetworkManagerSDK-umbrella.h */,
+				6A14B71ECED5467E6C30A4B11220D2C5 /* NetworkManagerSDK.debug.xcconfig */,
+				2B033303526CEAAEF4A2E3F0F41905BC /* NetworkManagerSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/NetworkManagerSDK";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -120,22 +153,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B9DC00111678EC5E329269C58AA6C43 /* Pod */ = {
+		84503EA4BE68852657A16FC3BD47E231 /* NetworkManagerSDK */ = {
 			isa = PBXGroup;
 			children = (
-				BA9E96CFF797D94814A04F123825E594 /* NetworkManagerSDK.podspec */,
-				2D9267CF3C65E9DBB5853F99B7FDE64C /* README.md */,
+				A7FDC7EF689ABD23BB508620E7EA1ADA /* Enums */,
+				8457BEE9B9BFA1F1EEE4397647C324A6 /* Models */,
+				22433EE391ACBB985912C670370AC8C4 /* Pod */,
+				068149EC152F2003DACABF76CB63A362 /* Services */,
+				3DC2A5096EA812FCBC75C3901F5278BC /* Strings */,
+				4973ED381F5058A14DA37911EF7D8F4D /* StructsObjects */,
+				533EA9C878BD0AF3E36C1002CA2C9807 /* Support Files */,
 			);
-			name = Pod;
+			name = NetworkManagerSDK;
+			path = ../NetworkManagerSDK;
 			sourceTree = "<group>";
 		};
-		92E57955EA422E8492C52A6A55DD8FA3 /* StructsObjects */ = {
+		8457BEE9B9BFA1F1EEE4397647C324A6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1ADCA5F7C5F46927CBF713B0A0A1A213 /* StructsObjects.swift */,
+				E2A7839DB62325C4B781EEC01E3F125E /* CharactersModel.swift */,
+				E64CE70B184CDAFBF3267EC2367D3D17 /* NetworkModel.swift */,
 			);
-			name = StructsObjects;
-			path = NetworkManagerSDK/NetworkManagerSDK/StructsObjects;
+			name = Models;
+			path = NetworkManagerSDK/NetworkManagerSDK/Models;
+			sourceTree = "<group>";
+		};
+		92462266F226E2F1C3A44E67B129CD20 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84503EA4BE68852657A16FC3BD47E231 /* NetworkManagerSDK */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		986C859FE669C94DAF5A9FEB5678B1D9 /* Pods-RestructurePase */ = {
@@ -155,29 +203,20 @@
 			path = "Target Support Files/Pods-RestructurePase";
 			sourceTree = "<group>";
 		};
-		AA7B4D9557864A937F1D1475CADF6820 /* Development Pods */ = {
+		A7FDC7EF689ABD23BB508620E7EA1ADA /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				26B9871638075BC81F46FAB891938E18 /* NetworkManagerSDK */,
+				E28212573CD7C7236CE4AD1ACF302691 /* EnumsGeneric.swift */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B816D64993AA10DAA33CF5FB8AEC46D1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E3316F4F418A29024F6FF48A63DFC47B /* CharactersModel.swift */,
-				BD5522AE698C212FC0C39F1F082DECAB /* NetworkModel.swift */,
-			);
-			name = Models;
-			path = NetworkManagerSDK/NetworkManagerSDK/Models;
+			name = Enums;
+			path = NetworkManagerSDK/NetworkManagerSDK/Enums;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AA7B4D9557864A937F1D1475CADF6820 /* Development Pods */,
+				92462266F226E2F1C3A44E67B129CD20 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7A26BADEB93D3E9D2101E6542B9BE417 /* Products */,
 				DA8629985813FD48FCFF4E80622E8139 /* Targets Support Files */,
@@ -200,29 +239,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F6CF4ACD7753664030BBE93938BA4785 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8AA4BCF07E15AEBB1A2F3A8636AE22AC /* NetworkManagerSDK.modulemap */,
-				EA40E4B9F2D318986BADBD1E1FA6BD73 /* NetworkManagerSDK-dummy.m */,
-				75E6E2914F1E1B27B1A5E3884C577427 /* NetworkManagerSDK-Info.plist */,
-				8B90F98399B72FDE17A1577E08CF6AA3 /* NetworkManagerSDK-prefix.pch */,
-				77947ED40220E81B461062F26172D4F1 /* NetworkManagerSDK-umbrella.h */,
-				9B8FEFFD54F8E7D82AFC7313F6C15341 /* NetworkManagerSDK.debug.xcconfig */,
-				23B08F192DF7F96BA7F3275A937F1A28 /* NetworkManagerSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/NetworkManagerSDK";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		198377C23BED3D93FF9F0D438B771476 /* Headers */ = {
+		0C1211842BF44D175CD32205C95BF379 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB4363F90576C9781A9DC471A2DA19E /* NetworkManagerSDK-umbrella.h in Headers */,
+				600DF79167DA1901801C4994027716FF /* NetworkManagerSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1BAF34C7E01FDF069F3F1E2D9B5734F3 /* PBXTargetDependency */,
+				EE7ACA589990033685CCE26A8DEABF71 /* PBXTargetDependency */,
 			);
 			name = "Pods-RestructurePase";
 			productName = Pods_RestructurePase;
@@ -258,12 +282,12 @@
 		};
 		ED25E8259437EE73C71174C0400F5ABF /* NetworkManagerSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E96A1D5B3C112B8F2961FEA0EE179B23 /* Build configuration list for PBXNativeTarget "NetworkManagerSDK" */;
+			buildConfigurationList = B99B77BB60F7BBFB9427F5EAA16DB674 /* Build configuration list for PBXNativeTarget "NetworkManagerSDK" */;
 			buildPhases = (
-				198377C23BED3D93FF9F0D438B771476 /* Headers */,
-				2150A6E2115B9E15D275411121E3F8A7 /* Sources */,
-				B2D071BBF90EFE1614F641E283F28782 /* Frameworks */,
-				D72FA68E2D0899F5DFB4AD3E2DC99FB3 /* Resources */,
+				0C1211842BF44D175CD32205C95BF379 /* Headers */,
+				CF548FCC30AACBA24043FD83C7D4F8A0 /* Sources */,
+				53B5917411B4BD471ABE9ECC95D6FB4C /* Frameworks */,
+				74EA22E5C5E2A71600111811D9D2C3C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -303,7 +327,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D72FA68E2D0899F5DFB4AD3E2DC99FB3 /* Resources */ = {
+		74EA22E5C5E2A71600111811D9D2C3C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,19 +344,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2150A6E2115B9E15D275411121E3F8A7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				764A37AE0585C2BA1C4641FB4C9FC06B /* CharactersModel.swift in Sources */,
-				96259CA5D44F0FA1CA9D7F77BC9925A4 /* Network.swift in Sources */,
-				952003D043B24685A12D9CA5312AE713 /* NetworkManagerSDK-dummy.m in Sources */,
-				F66C435B1995F9D82FDE393FC5E6E1AC /* NetworkModel.swift in Sources */,
-				06321E219119E1A7C289ED86005160A4 /* StructsObjects.swift in Sources */,
-				7044C17207FDBBC7C455D21EE95F801C /* WebService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3049B5C98C47736BF80853B14C68CE71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,53 +352,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF548FCC30AACBA24043FD83C7D4F8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D84CA0B9F0D6F0C2A4C467CF05B5FB2 /* CharactersModel.swift in Sources */,
+				654F0FA626457803C7AE5C918CA4CEF4 /* EnumsGeneric.swift in Sources */,
+				70D0E37F06051749869B872FC52A4115 /* NameServices.swift in Sources */,
+				D0D654BF027709D81D46E65B62B1B4A6 /* Network.swift in Sources */,
+				BBE6999BDBE60B41295DEB87D904C719 /* NetworkManagerSDK-dummy.m in Sources */,
+				7B96E111EE4C1272988A76A341825236 /* NetworkModel.swift in Sources */,
+				CFB7D07E383D19AABA811CC3DE7E4488 /* StructsObjects.swift in Sources */,
+				285A1BB35CD12A5CFBA858243134F819 /* WebService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1BAF34C7E01FDF069F3F1E2D9B5734F3 /* PBXTargetDependency */ = {
+		EE7ACA589990033685CCE26A8DEABF71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NetworkManagerSDK;
 			target = ED25E8259437EE73C71174C0400F5ABF /* NetworkManagerSDK */;
-			targetProxy = E7DFB132F71E492C1EDFA767BDADC248 /* PBXContainerItemProxy */;
+			targetProxy = 5CB883F9B099E449D48B785DDEE8DC76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		200E94748C986160F6B2A6362A424D28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B8FEFFD54F8E7D82AFC7313F6C15341 /* NetworkManagerSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NetworkManagerSDK/NetworkManagerSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NetworkManagerSDK/NetworkManagerSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NetworkManagerSDK/NetworkManagerSDK.modulemap";
-				PRODUCT_MODULE_NAME = NetworkManagerSDK;
-				PRODUCT_NAME = NetworkManagerSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,9 +507,9 @@
 			};
 			name = Release;
 		};
-		AAD8A23C14EF120164198C0C2ED0FB2B /* Release */ = {
+		B073AB8F1C49AE90D90B3BAB679AD93A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B08F192DF7F96BA7F3275A937F1A28 /* NetworkManagerSDK.release.xcconfig */;
+			baseConfigurationReference = 2B033303526CEAAEF4A2E3F0F41905BC /* NetworkManagerSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -627,6 +618,41 @@
 			};
 			name = Debug;
 		};
+		ED92454D8AB9C3B1BF5807D1D49B5C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A14B71ECED5467E6C30A4B11220D2C5 /* NetworkManagerSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NetworkManagerSDK/NetworkManagerSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NetworkManagerSDK/NetworkManagerSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NetworkManagerSDK/NetworkManagerSDK.modulemap";
+				PRODUCT_MODULE_NAME = NetworkManagerSDK;
+				PRODUCT_NAME = NetworkManagerSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -639,11 +665,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E96A1D5B3C112B8F2961FEA0EE179B23 /* Build configuration list for PBXNativeTarget "NetworkManagerSDK" */ = {
+		B99B77BB60F7BBFB9427F5EAA16DB674 /* Build configuration list for PBXNativeTarget "NetworkManagerSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				200E94748C986160F6B2A6362A424D28 /* Debug */,
-				AAD8A23C14EF120164198C0C2ED0FB2B /* Release */,
+				ED92454D8AB9C3B1BF5807D1D49B5C7E /* Debug */,
+				B073AB8F1C49AE90D90B3BAB679AD93A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
