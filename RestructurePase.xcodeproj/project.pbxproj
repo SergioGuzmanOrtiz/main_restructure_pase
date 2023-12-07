@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0580CE7EEED46E74C3E18A40 /* Pods_RestructurePase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8575DC52AF44C5F7DEF421FA /* Pods_RestructurePase.framework */; };
 		A83E1F172B163CA100976AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F162B163CA100976AE7 /* AppDelegate.swift */; };
 		A83E1F192B163CA100976AE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F182B163CA100976AE7 /* SceneDelegate.swift */; };
 		A83E1F1B2B163CA100976AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E1F1A2B163CA100976AE7 /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		A884ADB62B1E438B00381078 /* LoginPaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A884ADB52B1E438B00381078 /* LoginPaseViewController.swift */; };
 		A8C4E5EE2B16A8ED00C66502 /* CellTableDateHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */; };
 		A8C6F6BD2B16943500EE71FC /* CellTableDateHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */; };
-		E4E753B8EDB9CF8C50883420 /* Pods_RestructurePase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F650E388968B9EF75A6AD /* Pods_RestructurePase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A8F650E388968B9EF75A6AD /* Pods_RestructurePase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestructurePase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8575DC52AF44C5F7DEF421FA /* Pods_RestructurePase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestructurePase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8643228DBC348AFDE01DD336 /* Pods-RestructurePase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.release.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.release.xcconfig"; sourceTree = "<group>"; };
+		8B9CF5CFE3CAF58250778CE8 /* Pods-RestructurePase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.debug.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.debug.xcconfig"; sourceTree = "<group>"; };
 		A83E1F132B163CA100976AE7 /* RestructurePase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestructurePase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83E1F162B163CA100976AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A83E1F182B163CA100976AE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +59,6 @@
 		A884ADB52B1E438B00381078 /* LoginPaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPaseViewController.swift; sourceTree = "<group>"; };
 		A8C4E5ED2B16A8ED00C66502 /* CellTableDateHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableDateHome.swift; sourceTree = "<group>"; };
 		A8C6F6BC2B16943500EE71FC /* CellTableDateHome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableDateHome.xib; sourceTree = "<group>"; };
-		BAD6B83B09C65E996EE46B07 /* Pods-RestructurePase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.release.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.release.xcconfig"; sourceTree = "<group>"; };
-		BC56E0A66F1BF37B78A314E5 /* Pods-RestructurePase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestructurePase.debug.xcconfig"; path = "Target Support Files/Pods-RestructurePase/Pods-RestructurePase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E753B8EDB9CF8C50883420 /* Pods_RestructurePase.framework in Frameworks */,
+				0580CE7EEED46E74C3E18A40 /* Pods_RestructurePase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,11 +87,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1392E1FA8E2A72CFDC0AA5F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8575DC52AF44C5F7DEF421FA /* Pods_RestructurePase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2F5FF562B8F72198C9DB7A0C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BC56E0A66F1BF37B78A314E5 /* Pods-RestructurePase.debug.xcconfig */,
-				BAD6B83B09C65E996EE46B07 /* Pods-RestructurePase.release.xcconfig */,
+				8B9CF5CFE3CAF58250778CE8 /* Pods-RestructurePase.debug.xcconfig */,
+				8643228DBC348AFDE01DD336 /* Pods-RestructurePase.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -104,7 +112,7 @@
 				A83E1F362B163CA500976AE7 /* RestructurePaseUITests */,
 				A83E1F142B163CA100976AE7 /* Products */,
 				2F5FF562B8F72198C9DB7A0C /* Pods */,
-				BCF0E3C48259240D392B45A1 /* Frameworks */,
+				1392E1FA8E2A72CFDC0AA5F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,14 +200,6 @@
 			path = PrincipalHome;
 			sourceTree = "<group>";
 		};
-		BCF0E3C48259240D392B45A1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8A8F650E388968B9EF75A6AD /* Pods_RestructurePase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,7 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A83E1F3D2B163CA500976AE7 /* Build configuration list for PBXNativeTarget "RestructurePase" */;
 			buildPhases = (
-				194DA229057D4A0436ED5ACA /* [CP] Check Pods Manifest.lock */,
+				0C987619181E96B337C2C522 /* [CP] Check Pods Manifest.lock */,
 				A83E1F0F2B163CA100976AE7 /* Sources */,
 				A83E1F102B163CA100976AE7 /* Frameworks */,
 				A83E1F112B163CA100976AE7 /* Resources */,
@@ -329,7 +329,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		194DA229057D4A0436ED5ACA /* [CP] Check Pods Manifest.lock */ = {
+		0C987619181E96B337C2C522 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -539,13 +539,14 @@
 		};
 		A83E1F3E2B163CA500976AE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC56E0A66F1BF37B78A314E5 /* Pods-RestructurePase.debug.xcconfig */;
+			baseConfigurationReference = 8B9CF5CFE3CAF58250778CE8 /* Pods-RestructurePase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B7RYG63NFX;
+				DEVELOPMENT_TEAM = MU7L6DHBR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RestructurePase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -553,6 +554,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,21 +562,26 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sergio.com.RestructurePase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A83E1F3F2B163CA500976AE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAD6B83B09C65E996EE46B07 /* Pods-RestructurePase.release.xcconfig */;
+			baseConfigurationReference = 8643228DBC348AFDE01DD336 /* Pods-RestructurePase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B7RYG63NFX;
+				DEVELOPMENT_TEAM = MU7L6DHBR2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RestructurePase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -582,6 +589,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,9 +597,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sergio.com.RestructurePase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
