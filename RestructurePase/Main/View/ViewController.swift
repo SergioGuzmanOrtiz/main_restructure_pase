@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     ///Instancia de clase WebService
     var ws:WebService = WebService()
     var arrayCharacters:[ResultCharacter] = [ResultCharacter]()
-    
+    //cambio
     @IBOutlet weak var tablaDatos: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
